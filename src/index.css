@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #38bdf8;
+  --color-secondary: #facc15;
+  --color-secondary-content: #1e293b;
+  --color-base-100: #0f172a;
+}
+
+body {
+  color: white;
+}
+
+.navLinks li{
+  margin-right: 10px;
+}
+.navLinks li:hover {
+  color: #38bdf8;
+}
+
+/* .navLinks li>a.active {
+  border-bottom: 2px solid #38bdf8;
+} */
