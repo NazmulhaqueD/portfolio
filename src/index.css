@@ -10,17 +10,22 @@
   --color-base-100: #0f172a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
 }
 
-.navLinks li{
+.navLinks li {
   margin-right: 10px;
 }
+
 .navLinks li:hover {
   color: #38bdf8;
 }
 
-/* .navLinks li>a.active {
+.navLinks li>a:focus {
   border-bottom: 2px solid #38bdf8;
-} */
+}

@@ -5,7 +5,7 @@ import profile from '../assets/Nazmul.png';
 
 const Hero = () => {
     return (
-        <div className='max-w-7xl my-16 lg:my-0 mx-auto min-h-[93vh] lg:flex justify-between gap-16 lg:gap-8 items-center p-4'>
+        <div id='home' className='max-w-7xl mt-16 lg:mt-0 mx-auto lg:min-h-screen lg:flex justify-between gap-16 lg:gap-8 items-center p-4'>
             <section className='space-y-4 '>
                 <h1 className='text-secondary text-4xl md:text-6xl'>Hi! I'm Nazmul Haque</h1>
                 <span className='text-3xl font-semibold text-primary'>
