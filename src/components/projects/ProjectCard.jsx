@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className='flex flex-col lg:flex-row items-center py-8 gap-4 border border-black p-2 rounded-xl shadow-lg shadow-black hover:shadow-[0_0_8px] hover:shadow-black transition-all duration-300 hover:scale-[1.03]'>
+        <div className='flex flex-col lg:flex-row items-start py-8 gap-4 border border-black p-2 rounded-xl shadow-lg shadow-black hover:shadow-[0_0_8px] hover:shadow-black transition-all duration-300 hover:scale-[1.03]'>
             <section className='w-full lg:w-3/5'>
                 <img className=' rounded-xl h-full lg:h-[400px]' src={project.image} alt="" />
             </section>
@@ -26,10 +26,10 @@ const ProjectCard = ({ project }) => {
                     }
                 </ul>
 
-                <div className='flex gap-4 items-center'>
+                <div className='flex gap-4 items-center mt-8'>
                     <a className='btn btn-sm btn-primary text-base-100 px-4' target='_blank' href={project.liveLink}>Live</a>
                     <a className='btn btn-sm btn-primary text-base-100 px-4' target='_blank' href={project.codeLink}>GitHub</a>
-                    <a className='btn btn-sm btn-primary text-base-100 px-4' target='_blank' href={project.liveLink}>Details</a>
+                    {/* <a className='btn btn-sm btn-primary text-base-100 px-4' target='_blank' href={project.liveLink}>Details</a> */}
                 </div>
 
             </section>

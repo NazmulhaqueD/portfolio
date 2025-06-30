@@ -26,6 +26,9 @@ body {
   color: #38bdf8;
 }
 
+.active a{
+  color: rgb(52, 199, 199);
+}
 .navLinks li>a:focus {
   border-bottom: 2px solid #38bdf8;
 }
