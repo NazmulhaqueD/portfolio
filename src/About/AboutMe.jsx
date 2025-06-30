@@ -5,7 +5,7 @@ import { IoArrowForwardOutline } from 'react-icons/io5';
 const AboutMe = () => {
     return (
         <div id='aboutSection' className='max-w-7xl mt-16 lg:mt-0 lg:min-h-screen mx-auto flex p-4 flex-col-reverse lg:flex-row gap-16 justify-between items-center'>
-            <section>
+            <section className='hidden lg:block'>
                 <img className='w-[900px] h-[600px] rounded-tl-[100px] rounded-br-[100px] px-16 border' src={aboutImg} alt="" />
             </section>
             <section id="about" className="max-w-4xl py-12">
