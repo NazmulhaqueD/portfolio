@@ -2,9 +2,9 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className='flex flex-col lg:flex-row items-start-2 py-6 gap-6 shadow-lg shadow-black'>
-            <section className='w-full lg:w-3/5 h-[400px]'>
-                <img className=' rounded-xl' src={project.image} alt="" />
+        <div className='flex flex-col lg:flex-row items-center py-8 gap-4 border border-black p-2 rounded-xl shadow-lg shadow-black hover:shadow-[0_0_8px] hover:shadow-black transition-all duration-300 hover:scale-[1.03]'>
+            <section className='w-full lg:w-3/5'>
+                <img className=' rounded-xl h-full lg:h-[400px]' src={project.image} alt="" />
             </section>
             <section className='w-full lg:w-2/5 space-y-3'>
                 <h1 className='text-4xl text-primary font-semibold'>{project.title}</h1>

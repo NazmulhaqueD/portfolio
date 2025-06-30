@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <img className='w-[900px] h-[600px] rounded-tl-[100px] rounded-br-[100px] px-16 border' src={aboutImg} alt="" />
             </section>
             <section id="about" className="max-w-4xl py-12">
-                <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-secondary">About Me</h2>
+                <h2 className="text-4xl text-center lg:text-left lg:text-5xl font-bold mb-6 text-secondary">About Me</h2>
                 <h1 className='text text-2xl lg:text-4xl font-semibold py-6 leading-relaxed'>
                     Passionate Frontend <br />
                     <span className='text-primary'> Web Developer</span>
@@ -27,9 +27,11 @@ const AboutMe = () => {
                     My goal is to become a full-stack developer and work with advanced technologies like AI and Machine Learning in the future.
                     I'm currently open to junior developer or internship opportunities.
                 </p>
-                <button className='flex items-center gap-1 btn btn-primary text-base-100 my-4'><p>View My Projects </p><IoArrowForwardOutline /></button>
+                <a href="#projects">
+                    <button className='flex items-center gap-1 btn btn-primary text-base-100 my-4'><p>View My Projects </p><IoArrowForwardOutline /></button>
+                </a>
             </section>
-            
+
         </div>
     );
 };

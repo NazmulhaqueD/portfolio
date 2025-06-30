@@ -8,11 +8,11 @@ const Navbar = () => {
         <li><a href="#aboutSection">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
 
     return (
-        <div className="navbar bg-[#1e293b] shadow-sm fixed top-0 z-20">
+        <div className="navbar bg-[#1e293b] shadow-sm fixed top-0 z-20 px-4 lg:px-6">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
