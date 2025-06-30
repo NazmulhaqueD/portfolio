@@ -4,17 +4,13 @@ import { IoArrowForwardOutline } from 'react-icons/io5';
 
 const AboutMe = () => {
     return (
-        <div id='aboutSection' className='max-w-7xl mt-16 lg:mt-0 lg:min-h-screen mx-auto flex p-4 flex-col-reverse lg:flex-row gap-8 justify-bet items-center'>
+        <div id='aboutSection' className='max-w-7xl mt-16 lg:mt-0 lg:min-h-screen mx-auto flex p-4 flex-col-reverse lg:flex-row gap-16 justify-between items-center'>
             <section>
                 <img className='w-[900px] h-[600px] rounded-tl-[100px] rounded-br-[100px] px-16 border' src={aboutImg} alt="" />
             </section>
-            {/* <section>
-                <h1 className='text-secondary text-4xl'>About Me</h1>
-                <h2></h2>
-            </section> */}
             <section id="about" className="max-w-4xl py-12">
-                <h2 className="text-3xl font-bold text-center mb-6 text-secondary">About Me</h2>
-                <h1 className='text text-4xl font-semibold py-6 leading-relaxed'>
+                <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-secondary">About Me</h2>
+                <h1 className='text text-2xl lg:text-4xl font-semibold py-6 leading-relaxed'>
                     Passionate Frontend <br />
                     <span className='text-primary'> Web Developer</span>
                 </h1>
