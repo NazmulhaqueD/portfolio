@@ -20,17 +20,36 @@ const Hero = () => {
                     />
                 </span>
                 <p className='max-w-2xl pt-6'>I'm a self-taught full stack web developer skilled in React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. I enjoy building fast, responsive, and scalable web applications with a strong focus on clean design and smooth user experience.</p>
+
+
                 <article className='flex items-center gap-6'>
-                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'><a href="https://github.com/NazmulhaqueD" target='_blank'><FaGithub size={36}/></a></li>
-                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'><a href=""><FaLinkedin size={36}/></a></li>
-                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'><a href=""><FaWhatsapp size={36}/></a></li>
-                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'><a href=""><FaFacebookF size={36}/></a></li>
+                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'>
+                        <a href="https://github.com/NazmulhaqueD" target='_blank'><FaGithub size={36} /></a>
+                    </li>
+
+                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'>
+                        <a href="https://www.linkedin.com/in/nazmul-haque-dev" target='_blank'><FaLinkedin size={36} /></a>
+                    </li>
+
+                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'>
+                        <a href="https://wa.me/8801313625224" target='_blank'><FaWhatsapp size={36} /></a>
+                    </li>
+
+                    <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'>
+                        <a href="https://web.facebook.com/mdnajmulhaque.selim.9" target='_blank'><FaFacebookF size={36} /></a>
+                    </li>
                 </article>
+
+
                 <article className='flex gap-6'>
                     <button className='btn btn-primary text-base-100'>Hire Me</button>
-                    <button className='btn btn-outline hover:btn-primary'>Download CV</button>
+                    <a href='/NazmulFullStackResume.pdf' download className='btn btn-outline hover:btn-primary'>Download CV</a>
                 </article>
+
             </section>
+
+
+
             <section className='flex items-center justify-center'>
                 <div>
                     <img className='w-80 h-80 md:w-[500px] md:h-[500px] rounded-full border mt-16 lg:mt-0' src={profile} alt="" />

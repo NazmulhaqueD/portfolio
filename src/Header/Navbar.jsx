@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='/Md_Nazmul_Haque_Resume.pdf' download target='_blank' className="btn btn-primary text-base-100">Download Resume</a>
+                <a href='https://drive.google.com/file/d/1nCROEQMJxKOmnDSTvNw-dAJ0V57MTfJv/view?usp=drive_link' download target='_blank' className="btn btn-primary text-base-100">Download Resume</a>
             </div>
         </div>
     );
