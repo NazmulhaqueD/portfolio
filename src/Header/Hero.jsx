@@ -28,7 +28,7 @@ const Hero = () => {
                     </li>
 
                     <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'>
-                        <a href="https://www.linkedin.com/in/nazmul-haque-dev" target='_blank'><FaLinkedin size={36} /></a>
+                        <a href="https://www.linkedin.com/in/nazmul-haqued/" target='_blank'><FaLinkedin size={36} /></a>
                     </li>
 
                     <li className='list-none hover:scale-105 transition duration-300 hover:bg-primary p-2 rounded-xl'>
